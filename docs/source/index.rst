@@ -3,18 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to BigOpenApi's documentation!
+Introducción
 ======================================
-Bienvenido a BOA
+Bienvenido a la documentación de la API de BigOpenApi (BOA). 
 
-Contenidos:
-
-.. toctree::
-   :maxdepth: 2
+Esta guía se encuentra dividida en los siguientes contenido:
    
-   bigopenapi.rst
-   objetorespuesta.rst
-   descripcionservicios.rst
+:doc:`bigopenapi.rst`
+	Introducción y explicación de lo que es BOA.
+:doc:`objetorespuesta.rst`
+	Información sobre el objeto de respuesta devuelto por los servicios de la API.
+:doc:`descripcionservicios.rst`
+	Descripción y uso de los servicios que ofrece BOA.
 	
 
 
