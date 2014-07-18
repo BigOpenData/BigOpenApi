@@ -8,13 +8,14 @@ Introducción
 Bienvenido a la documentación de la API de BigOpenApi (BOA). 
 
 Esta guía se encuentra dividida en los siguientes contenido:
+
+.. toctree::
+   :maxdepth: 2
    
-:doc:`bigopenapi.rst`
-	Introducción y explicación de lo que es BOA.
-:doc:`objetorespuesta.rst`
-	Información sobre el objeto de respuesta devuelto por los servicios de la API.
-:doc:`descripcionservicios.rst`
-	Descripción y uso de los servicios que ofrece BOA.
+   bigopenapi.rst
+		Introducción y explicación de lo que es BOA.
+   objetorespuesta.rst
+		Información sobre el objeto de respuesta devuelto por los servicios de la API.
+   descripcionservicios.rst
+		Descripción y uso de los servicios que ofrece BOA.
 	
-
-
