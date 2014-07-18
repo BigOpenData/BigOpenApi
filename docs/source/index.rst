@@ -7,7 +7,7 @@ Introducción
 ======================================
 Bienvenido a la documentación de la API de BigOpenApi (BOA). 
 
-Esta guía se encuentra dividida en los siguientes contenido:
+Esta guía se encuentra dividida en los siguientes contenidos:
 
 :doc:`bigopenapi`
 	Introducción y explicación de lo que es BOA.
