@@ -1,0 +1,418 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Descripción de los servicios &mdash; BigOpenApi 1.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="BigOpenApi 1.0 documentation" href="index.html"/>
+        <link rel="prev" title="Objeto de Respuesta" href="objetorespuesta.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> BigOpenApi</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="bigopenapi.html">BigOpenApi (BOA)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objetorespuesta.html">Objeto de Respuesta</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Descripción de los servicios</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">BigOpenApi</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Descripción de los servicios</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/descripcionservicios.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="descripcion-de-los-servicios">
+<h1>Descripción de los servicios<a class="headerlink" href="#descripcion-de-los-servicios" title="Permalink to this headline">¶</a></h1>
+<p>A continuación se describen los servicios implementados</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">mostrarRecursos</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Servicio que devuelve una lista con los nombres de los recursos disponibles.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>REST</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Devuelve un array con los diferentes recursos disponibles.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>tab_name</strong> :  Nombre del recurso</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/mostrarRecursos">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/mostrarRecursos</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">describirRecursos</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Servicio que devuelve la estructura del recurso solicitado.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>REST</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td><ul class="first last simple">
+<li><strong>dsTabla</strong>: Nombre del recurso</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Devuelve un array con los diferentes recursos disponibles.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>tab_name</strong> :  Nombre del recurso</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/describirRecurso?dsTabla=&lt;nombreRecurso&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/describirRecurso?dsTabla=&lt;nombreRecurso&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="9%" />
+<col width="91%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">probarRecursos</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Servicio que devuelve 100 elementos del recurso solicitado de forma rápida, para poder comprobar el tipo de información contenida en el recurso. La respuesta se realizará mediante un <strong>archivo de texto</strong> plano con el objeto resultado en formato JSON.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>Servlet</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td><ul class="first last simple">
+<li><strong>dsTabla</strong>: Nombre del recurso</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Array en formato JSON con los registros contenidos en el recurso.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>claveRecurso</strong> :  valor</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/probarRecurso?dsTabla=&lt;nombreRecurso&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/probarRecurso?dsTabla=&lt;nombreRecurso&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">contarResultados</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Devuelve el número de registros coincidentes para los campos y expresiones regulares enviadas como parámetros para un recurso. Este servicio permite prever la cantidad de información que sería devuelta por el método <strong>filtrarResultados</strong> para un mismo filtro.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>REST</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td><p class="first">Permite enviar una lista de campos y expresiones regulares a cumplir. Los campos y expresiones regulares se validarán en orden, es decir, el primer parámetro campo se validará con la primera expresión regular enviada. Por tanto, deberá existir el mismo número de campos como de expresiones regulares.</p>
+<ul class="last simple">
+<li><strong>dsTabla</strong>: nombre del recurso</li>
+<li><strong>dsCampo</strong>: nombre del campo del recurso por el que se desea filtrar</li>
+<li><strong>regex</strong>: expresión regular que se desea validar para un campo específico</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Array en formato JSON con el número de registros coincidentes con el filtro.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>claveRecurso</strong> :  valor</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/contarResultados?dsTabla=&lt;nombreRecurso&gt;&amp;dsCampo=&lt;campo1&gt;&amp;regex=&lt;regex1&gt;&amp;dsCampo=&lt;campo2&gt;&amp;regex=&lt;regex2&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/contarResultados?dsTabla=&lt;nombreRecurso&gt;&amp;dsCampo=&lt;campo1&gt;&amp;regex=&lt;regex1&gt;&amp;dsCampo=&lt;campo2&gt;&amp;regex=&lt;regex2&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">filtrarResultados</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Devuelve los registros coincidentes para los campos y expresiones regulares enviadas como parámetros para un recurso. La respuesta se realizará mediante un <strong>archivo de texto</strong> plano con el objeto resultado en formato JSON.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>Servlet</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td><p class="first">Permite enviar una lista de campos y expresiones regulares a cumplir. Los campos y expresiones regulares se validarán en orden, es decir, el primer parámetro campo se validará con la primera expresión regular enviada. Por tanto, deberá existir el mismo número de campos como de expresiones regulares.</p>
+<ul class="last simple">
+<li><strong>dsTabla</strong>: nombre del recurso</li>
+<li><strong>dsCampo</strong>: nombre del campo del recurso por el que se desea filtrar</li>
+<li><strong>regex</strong>: expresión regular que se desea validar para un campo específico</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Array en formato JSON con los registros coincidentes con el filtro</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>claveRecurso</strong> :  valor</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/filtrarResultados?dsTabla=&lt;nombreRecurso&gt;&amp;dsCampo=&lt;campo1&gt;&amp;regex=&lt;regex1&gt;&amp;dsCampo=&lt;campo2&gt;&amp;regex=&lt;regex2&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/filtrarResultados?dsTabla=&lt;nombreRecurso&gt;&amp;dsCampo=&lt;campo1&gt;&amp;regex=&lt;regex1&gt;&amp;dsCampo=&lt;campo2&gt;&amp;regex=&lt;regex2&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">buscarEnUnRadio</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Este servicio permite geolocalizar registros contenidos en un radio para aquellos recursos que tengan disponible campos de coordenadas geográficas (latitud y longitud). La respuesta se realizará mediante un <strong>archivo de texto</strong> plano con el objeto resultado en formato JSON.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>Servlet</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td><ul class="first last simple">
+<li><strong>dsTabla</strong>: nombre del recurso.</li>
+<li><strong>centro</strong>: punto central del área a filtrar. Debe ser expresado con formato “latitud,longitud”.</li>
+<li><strong>metros</strong>: distancia a buscar desde el centro solicitado.</li>
+<li><strong>fecha</strong>: fecha de los registros solicitados en formato yyyyMMdd. Éste campo no es obligatorio, pero permite agilizar las búsquedas.</li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Array en formato JSON con los registros contenidos en el área solicitada.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>claveRecurso</strong> :  valor</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnRadio?dsTabla=&lt;nombreRecurso&gt;&amp;centro=&lt;latitud1&gt;,&lt;longitud1&gt;&amp;metros=&lt;númeroMetros&gt;&amp;fecha=&lt;yyyyMMdd&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnRadio?dsTabla=&lt;nombreRecurso&gt;&amp;centro=&lt;latitud1&gt;,&lt;longitud1&gt;&amp;metros=&lt;númeroMetros&gt;&amp; fecha=&lt;yyyyMMdd&gt;</a></td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<colgroup>
+<col width="8%" />
+<col width="92%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">buscarEnUnPoligono</th>
+<th class="head">&nbsp;</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td colspan="2">Este servicio permite geolocalizar registros contenidos en un polígono para aquellos recursos que tengan disponible campos de coordenadas geográficas (latitud y longitud). La respuesta se realizará mediante un <strong>archivo de texto</strong> plano con el objeto resultado en formato JSON.</td>
+</tr>
+<tr class="row-odd"><td>Tipo servicio</td>
+<td>Servlet</td>
+</tr>
+<tr class="row-even"><td>Parámetros</td>
+<td>Permite enviar una lista de coordenadas que marcarán los vértices del polígono solicitado. Las coordenadas deberán ser enviadas en el orden en el que se quiere que se unan los puntos.
+* <strong>dsTabla</strong>: Nombre del recurso
+* <strong>coordenadas</strong>: punto geográfico del polígono a filtrar. Debe ser expresado con formato “latitud,longitud”.
+* <strong>fecha</strong>: fecha de los registros solicitados en formato yyyyMMdd. Éste campo no es obligatorio, pero permite agilizar las búsquedas.</td>
+</tr>
+<tr class="row-odd"><td>Resultado:</td>
+<td><p class="first">Array en formato JSON con los registros contenidos en el polígono solicitado.</p>
+<p><strong>Formato</strong>:</p>
+<ul class="last simple">
+<li><strong>claveRecurso</strong> :  valor</li>
+</ul>
+</td>
+</tr>
+<tr class="row-even"><td>Ejemplo de llamada</td>
+<td><a class="reference external" href="http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=&lt;nombreRecurso&gt;&amp;coordenadas=&lt;latitud1&gt;,&lt;longitud1&gt;&amp;coordenadas=&lt;latitud2&gt;,&lt;longitud3&gt;&amp;coordenadas=&lt;latitud2&gt;,&lt;longitud3&gt;&amp;fecha=&lt;yyyyMMdd&gt;">http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=&lt;nombreRecurso&gt;&amp;coordenadas=&lt;latitud1&gt;,&lt;longitud1&gt;&amp;coordenadas=&lt;latitud2&gt;,&lt;longitud3&gt;&amp;coordenadas=&lt;latitud2&gt;,&lt;longitud3&gt;&amp;fecha=&lt;yyyyMMdd&gt;</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="objetorespuesta.html" class="btn btn-neutral" title="Objeto de Respuesta"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, everis.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

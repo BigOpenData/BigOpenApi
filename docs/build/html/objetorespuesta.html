@@ -1,0 +1,192 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Objeto de Respuesta &mdash; BigOpenApi 1.0 documentation</title>
+  
+
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="BigOpenApi 1.0 documentation" href="index.html"/>
+        <link rel="next" title="Descripción de los servicios" href="descripcionservicios.html"/>
+        <link rel="prev" title="BigOpenApi (BOA)" href="bigopenapi.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+          <a href="index.html" class="fa fa-home"> BigOpenApi</a>
+        
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="bigopenapi.html">BigOpenApi (BOA)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Objeto de Respuesta</a></li>
+<li class="toctree-l1"><a class="reference internal" href="descripcionservicios.html">Descripción de los servicios</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">BigOpenApi</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>Objeto de Respuesta</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/objetorespuesta.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            
+  <div class="section" id="objeto-de-respuesta">
+<h1>Objeto de Respuesta<a class="headerlink" href="#objeto-de-respuesta" title="Permalink to this headline">¶</a></h1>
+<p>El resultado de la petición será en un objeto en formato JSON (<a class="reference external" href="http://www.json.org">http://www.json.org</a>)</p>
+<p>Este objeto de respuesta seguirá la siguiente estructura:</p>
+<div class="highlight-python"><div class="highlight"><pre>{
+        “Result”:[{
+                        “col1”:”valor1”
+                },{
+                        “col2”:”valor2”
+                }
+                ...
+        ],
+        “NumResult”:”0”,
+        “Error”:{
+                “Código”:”xx”,
+                “Descripcion”:”Descripción del error”
+        }
+}
+</pre></div>
+</div>
+<ul class="simple">
+<li>El elemento <strong>Result</strong> contendrá un array de objetos JSON con los resultados de la consulta. En caso de que no se hayan encontrado resultados, o surja algún error, el Array no contendrá ningún elemento.</li>
+<li>El elemento <strong>NumResult</strong> tendrá como valor la longitud del array contenido en el elemento <strong>Result</strong>.</li>
+<li>El elemento <strong>Error</strong> contiene un objeto en formato JSON con otros dos elementos, <strong>Código y Descripción</strong>. Estos valores podrán ser consultados en éste documento en la sección de catálogos. Si la ejecución del servicio fuera satisfactoria, el elemento <strong>Error</strong> estará vacío.</li>
+</ul>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="descripcionservicios.html" class="btn btn-neutral float-right" title="Descripción de los servicios">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="bigopenapi.html" class="btn btn-neutral" title="BigOpenApi (BOA)"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2014, everis.
+    </p>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.0',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
