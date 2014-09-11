@@ -43,7 +43,7 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>                                                                    |
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>
+
 
 +------------------------+--------------------------------------------------------------------------------------------------------------------+
 | probarRecursos                                                                                                                              |
@@ -72,7 +72,7 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/probarRecurso?dsTabla=<nombreRecurso>                                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/probarRecurso?dsTabla=<nombreRecurso>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/probarRecurso?dsTabla=<nombreRecurso>
+
 
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | contarResultados                                                                                                                                                                                                |
@@ -105,7 +105,7 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/contarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>                                             |
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/contarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/contarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>
+
 
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | filtrarResultados                                                                                                                                                                                                |
@@ -141,7 +141,7 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/filtrarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>                                             |
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/filtrarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/filtrarResultados?dsTabla=<nombreRecurso>&dsCampo=<campo1>&regex=<regex1>&dsCampo=<campo2>&regex=<regex2>
+
 
 +------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | buscarEnUnRadio                                                                                                                                                                                                    |
@@ -174,7 +174,7 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/buscarEnUnRadio?dsTabla=<nombreRecurso>&centro=<latitud1>,<longitud1>&metros=<númeroMetros>& fecha=<yyyyMMdd>                                           |
 +------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnRadio?dsTabla=<nombreRecurso>&centro=<latitud1>,<longitud1>&metros=<númeroMetros>& fecha=<yyyyMMdd>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnRadio?dsTabla=<nombreRecurso>&centro=<latitud1>,<longitud1>&metros=<númeroMetros>& fecha=<yyyyMMdd>
+
 
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | buscarEnUnPoligono                                                                                                                                                                                                                                                          |
@@ -209,4 +209,4 @@ A continuación se describen los servicios implementados
 | Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>                                             |
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. _http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>: http://ec2-54-76-18-80.eu-west-1.compute.amazonaws.com:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>
+
