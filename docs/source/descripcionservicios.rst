@@ -19,7 +19,7 @@ A continuación se describen los servicios implementados
 |                        |                                                                                                                                |
 |                        | * **tab_name** :  Nombre del recurso                                                                                           |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| Ejemplo de llamada     | http://<servidor>:9090/BigOpenApi/mostrarRecursos                                                                              |
+| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/mostrarRecursos`_                                                                           |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
                                                                                                                   
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -206,7 +206,7 @@ A continuación se describen los servicios implementados
 |                        |                                                                                                                                                                                                                                                    |
 |                        | * **claveRecurso** :  valor                                                                                                                                                                                                                        |
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>`_                                             |
+| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>`_                                          |
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _http://<servidor>:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>: http:/<servidor>:9090/BigOpenApi/buscarEnUnPoligono?dsTabla=<nombreRecurso>&coordenadas=<latitud1>,<longitud1>&coordenadas=<latitud2>,<longitud3>&coordenadas=<latitud2>,<longitud3>&fecha=<yyyyMMdd>
