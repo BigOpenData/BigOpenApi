@@ -19,7 +19,7 @@ A continuación se describen los servicios implementados
 |                        |                                                                                                                                |
 |                        | * **tab_name** :  Nombre del recurso                                                                                           |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/mostrarRecursos`                                                                            |
+| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/mostrarRecursos`_                                                                           |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 .. _http://<servidor>:9090/BigOpenApi/mostrarRecursos: http://<servidor>:9090/BigOpenApi/mostrarRecursos                                                                                                                  
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
