@@ -7,7 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Objeto de Respuesta &mdash; BigOpenApi 1.0 documentation</title>
+  <title>&lt;no title&gt; &mdash; BigOpenApi 1.0 documentation</title>
   
 
   
@@ -28,9 +28,7 @@
   
 
   
-    <link rel="top" title="BigOpenApi 1.0 documentation" href="index.html"/>
-        <link rel="next" title="Descripción de los servicios" href="descripcionservicios.html"/>
-        <link rel="prev" title="BigOpenApi (BOA)" href="bigopenapi.html"/> 
+    <link rel="top" title="BigOpenApi 1.0 documentation" href="index.html"/> 
 
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
@@ -59,12 +57,10 @@
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
         
         
-            <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="bigopenapi.html">BigOpenApi (BOA)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">Objeto de Respuesta</a></li>
-<li class="toctree-l1"><a class="reference internal" href="descripcionservicios.html">Descripción de los servicios</a></li>
+            <!-- Local TOC -->
+            <div class="local-toc"><ul class="simple">
 </ul>
-
+</div>
         
       </div>
       &nbsp;
@@ -86,7 +82,7 @@
   <ul class="wy-breadcrumbs">
     <li><a href="index.html">Docs</a> &raquo;</li>
       
-    <li>Objeto de Respuesta</li>
+    <li>&lt;no title&gt;</li>
       <li class="wy-breadcrumbs-aside">
         
           <a href="_sources/objetorespuesta.txt" rel="nofollow"> View page source</a>
@@ -97,45 +93,1063 @@
 </div>
           <div role="main">
             
-  <div class="section" id="objeto-de-respuesta">
-<h1>Objeto de Respuesta<a class="headerlink" href="#objeto-de-respuesta" title="Permalink to this headline">¶</a></h1>
-<p>El resultado de la petición será en un objeto en formato JSON (<a class="reference external" href="http://www.json.org">http://www.json.org</a>)</p>
-<p>Este objeto de respuesta seguirá la siguiente estructura:</p>
-<div class="highlight-python"><div class="highlight"><pre>{
-        “Result”:[{
-                        “col1”:”valor1”
-                },{
-                        “col2”:”valor2”
-                }
-                ...
-        ],
-        “NumResult”:”0”,
-        “Error”:{
-                “Código”:”xx”,
-                “Descripcion”:”Descripción del error”
-        }
-}
-</pre></div>
-</div>
-<ul class="simple">
-<li>El elemento <strong>Result</strong> contendrá un array de objetos JSON con los resultados de la consulta. En caso de que no se hayan encontrado resultados, o surja algún error, el Array no contendrá ningún elemento.</li>
-<li>El elemento <strong>NumResult</strong> tendrá como valor la longitud del array contenido en el elemento <strong>Result</strong>.</li>
-<li>El elemento <strong>Error</strong> contiene un objeto en formato JSON con otros dos elementos, <strong>Código y Descripción</strong>. Estos valores podrán ser consultados en éste documento en la sección de catálogos. Si la ejecución del servicio fuera satisfactoria, el elemento <strong>Error</strong> estará vacío.</li>
-</ul>
-</div>
+  <p>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#8221;en&#8221; class=&#8221;&#8220;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;head prefix=&#8221;og: <a class="reference external" href="http://ogp.me">http://ogp.me</a>/ns# fb: <a class="reference external" href="http://ogp.me/ns">http://ogp.me/ns</a>/fb# object: <a class="reference external" href="http://ogp.me/ns">http://ogp.me/ns</a>/object# article: <a class="reference external" href="http://ogp.me/ns">http://ogp.me/ns</a>/article# profile: <a class="reference external" href="http://ogp.me/ns">http://ogp.me/ns</a>/profile#&#8221;&gt;</dt>
+<dd><p class="first">&lt;meta charset=&#8217;utf-8&#8217;&gt;
+&lt;meta http-equiv=&#8221;X-UA-Compatible&#8221; content=&#8221;IE=edge&#8221;&gt;
+&lt;meta http-equiv=&#8221;Content-Language&#8221; content=&#8221;en&#8221;&gt;</p>
+<p>&lt;title&gt;BigOpenApi/objetorespuesta.rst at master · BigOpenData/BigOpenApi&lt;/title&gt;
+&lt;link rel=&#8221;search&#8221; type=&#8221;application/opensearchdescription+xml&#8221; href=&#8221;/opensearch.xml&#8221; title=&#8221;GitHub&#8221;&gt;
+&lt;link rel=&#8221;fluid-icon&#8221; href=&#8221;<a class="reference external" href="https://github.com/fluidicon.png">https://github.com/fluidicon.png</a>&#8221; title=&#8221;GitHub&#8221;&gt;
+&lt;link rel=&#8221;apple-touch-icon&#8221; sizes=&#8221;57x57&#8221; href=&#8221;/apple-touch-icon-114.png&#8221;&gt;
+&lt;link rel=&#8221;apple-touch-icon&#8221; sizes=&#8221;114x114&#8221; href=&#8221;/apple-touch-icon-114.png&#8221;&gt;
+&lt;link rel=&#8221;apple-touch-icon&#8221; sizes=&#8221;72x72&#8221; href=&#8221;/apple-touch-icon-144.png&#8221;&gt;
+&lt;link rel=&#8221;apple-touch-icon&#8221; sizes=&#8221;144x144&#8221; href=&#8221;/apple-touch-icon-144.png&#8221;&gt;
+&lt;meta property=&#8221;fb:app_id&#8221; content=&#8221;1401488693436528&#8221;&gt;</p>
+<blockquote class="last">
+<div>&lt;meta content=&#8221;&#64;github&#8221; name=&#8221;twitter:site&#8221; /&gt;&lt;meta content=&#8221;summary&#8221; name=&#8221;twitter:card&#8221; /&gt;&lt;meta content=&#8221;BigOpenData/BigOpenApi&#8221; name=&#8221;twitter:title&#8221; /&gt;&lt;meta content=&#8221;BigOpenApi&#8221; name=&#8221;twitter:description&#8221; /&gt;&lt;meta content=&#8221;https://avatars2.githubusercontent.com/u/8199827?v=2&amp;amp;s=400&#8221; name=&#8221;twitter:image:src&#8221; /&gt;</div></blockquote>
+</dd>
+</dl>
+</div></blockquote>
+<p>&lt;meta content=&#8221;GitHub&#8221; property=&#8221;og:site_name&#8221; /&gt;&lt;meta content=&#8221;object&#8221; property=&#8221;og:type&#8221; /&gt;&lt;meta content=&#8221;https://avatars2.githubusercontent.com/u/8199827?v=2&amp;amp;s=400&#8221; property=&#8221;og:image&#8221; /&gt;&lt;meta content=&#8221;BigOpenData/BigOpenApi&#8221; property=&#8221;og:title&#8221; /&gt;&lt;meta content=&#8221;https://github.com/BigOpenData/BigOpenApi&#8221; property=&#8221;og:url&#8221; /&gt;&lt;meta content=&#8221;BigOpenApi&#8221; property=&#8221;og:description&#8221; /&gt;</p>
+<blockquote>
+<div><blockquote>
+<div>&lt;meta name=&#8221;browser-stats-url&#8221; content=&#8221;/_stats&#8221;&gt;</div></blockquote>
+<p>&lt;link rel=&#8221;assets&#8221; href=&#8221;<a class="reference external" href="https://assets-cdn.github.com/">https://assets-cdn.github.com/</a>&#8220;&gt;
+&lt;link rel=&#8221;conduit-xhr&#8221; href=&#8221;<a class="reference external" href="https://ghconduit.com:25035">https://ghconduit.com:25035</a>&#8220;&gt;
+&lt;link rel=&#8221;xhr-socket&#8221; href=&#8221;/_sockets&#8221;&gt;</p>
+<p>&lt;meta name=&#8221;msapplication-TileImage&#8221; content=&#8221;/windows-tile.png&#8221;&gt;
+&lt;meta name=&#8221;msapplication-TileColor&#8221; content=&#8221;#ffffff&#8221;&gt;
+&lt;meta name=&#8221;selected-link&#8221; value=&#8221;repo_source&#8221; data-pjax-transient&gt;</p>
+<blockquote>
+<div>&lt;meta name=&#8221;google-analytics&#8221; content=&#8221;UA-3769691-2&#8221;&gt;</div></blockquote>
+<p>&lt;meta content=&#8221;collector.githubapp.com&#8221; name=&#8221;octolytics-host&#8221; /&gt;&lt;meta content=&#8221;collector-cdn.github.com&#8221; name=&#8221;octolytics-script-host&#8221; /&gt;&lt;meta content=&#8221;github&#8221; name=&#8221;octolytics-app-id&#8221; /&gt;&lt;meta content=&#8221;581AE556:76F9:B373BD:5412D16B&#8221; name=&#8221;octolytics-dimension-request_id&#8221; /&gt;&lt;meta content=&#8221;8199827&#8221; name=&#8221;octolytics-actor-id&#8221; /&gt;&lt;meta content=&#8221;BigOpenData&#8221; name=&#8221;octolytics-actor-login&#8221; /&gt;&lt;meta content=&#8221;f0129ab0a157c7071fb86f6c77e0e457a1151f10445edc47cad9b49c490d6bd4&#8221; name=&#8221;octolytics-actor-hash&#8221; /&gt;
+&lt;meta content=&#8221;Rails, view, blob#show&#8221; name=&#8221;analytics-event&#8221; /&gt;</p>
+<p>&lt;link rel=&#8221;icon&#8221; type=&#8221;image/x-icon&#8221; href=&#8221;<a class="reference external" href="https://assets-cdn.github.com/favicon.ico">https://assets-cdn.github.com/favicon.ico</a>&#8220;&gt;</p>
+<p>&lt;meta content=&#8221;authenticity_token&#8221; name=&#8221;csrf-param&#8221; /&gt;</p>
+</div></blockquote>
+<p>&lt;meta content=&#8221;84sLFHJesMvJrI+cYYy6rwgW3XHoRhLePD0wrxG5GjdAFBJGlvMf/BovPfdJrV3jaLmAv95bWdVA96dStqSrug==&#8221; name=&#8221;csrf-token&#8221; /&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><p>&lt;link href=&#8221;<a class="reference external" href="https://assets-cdn.github.com/assets/github-ed7cd2ec638a4e57da70cae2c3a13e8e3f4b5f25.css">https://assets-cdn.github.com/assets/github-ed7cd2ec638a4e57da70cae2c3a13e8e3f4b5f25.css</a>&#8221; media=&#8221;all&#8221; rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; /&gt;
+&lt;link href=&#8221;<a class="reference external" href="https://assets-cdn.github.com/assets/github2-567b17c7ed8d557f1d161e3b96b366310b9638b0.css">https://assets-cdn.github.com/assets/github2-567b17c7ed8d557f1d161e3b96b366310b9638b0.css</a>&#8221; media=&#8221;all&#8221; rel=&#8221;stylesheet&#8221; type=&#8221;text/css&#8221; /&gt;</p>
+<p>&lt;meta http-equiv=&#8221;x-pjax-version&#8221; content=&#8221;23ecf963aafe06adb5b30a62ec3b75c1&#8221;&gt;</p>
+</div></blockquote>
+<p>&lt;meta name=&#8221;description&#8221; content=&#8221;BigOpenApi&#8221;&gt;
+&lt;meta name=&#8221;go-import&#8221; content=&#8221;github.com/BigOpenData/BigOpenApi git <a class="reference external" href="https://github.com/BigOpenData/BigOpenApi.git">https://github.com/BigOpenData/BigOpenApi.git</a>&#8220;&gt;</p>
+<p>&lt;meta content=&#8221;8199827&#8221; name=&#8221;octolytics-dimension-user_id&#8221; /&gt;&lt;meta content=&#8221;BigOpenData&#8221; name=&#8221;octolytics-dimension-user_login&#8221; /&gt;&lt;meta content=&#8221;21974744&#8221; name=&#8221;octolytics-dimension-repository_id&#8221; /&gt;&lt;meta content=&#8221;BigOpenData/BigOpenApi&#8221; name=&#8221;octolytics-dimension-repository_nwo&#8221; /&gt;&lt;meta content=&#8221;true&#8221; name=&#8221;octolytics-dimension-repository_public&#8221; /&gt;&lt;meta content=&#8221;false&#8221; name=&#8221;octolytics-dimension-repository_is_fork&#8221; /&gt;&lt;meta content=&#8221;21974744&#8221; name=&#8221;octolytics-dimension-repository_network_root_id&#8221; /&gt;&lt;meta content=&#8221;BigOpenData/BigOpenApi&#8221; name=&#8221;octolytics-dimension-repository_network_root_nwo&#8221; /&gt;
+&lt;link href=&#8221;<a class="reference external" href="https://github.com/BigOpenData/BigOpenApi/commits/master.atom">https://github.com/BigOpenData/BigOpenApi/commits/master.atom</a>&#8221; rel=&#8221;alternate&#8221; title=&#8221;Recent Commits to BigOpenApi:master&#8221; type=&#8221;application/atom+xml&#8221;&gt;</p>
+<p>&lt;/head&gt;</p>
+<dl class="docutils">
+<dt>&lt;body class=&#8221;logged_in  env-production windows vis-public page-blob&#8221;&gt;</dt>
+<dd><p class="first">&lt;a href=&#8221;#start-of-content&#8221; tabindex=&#8221;1&#8221; class=&#8221;accessibility-aid js-skip-to-content&#8221;&gt;Skip to content&lt;/a&gt;
+&lt;div class=&#8221;wrapper&#8221;&gt;</p>
+<blockquote class="last">
+<div>&lt;div class=&#8221;header header-logged-in true&#8221;&gt;</div></blockquote>
+</dd>
+</dl>
+<p>&lt;div class=&#8221;container clearfix&#8221;&gt;</p>
+<blockquote>
+<div>&lt;a class=&#8221;header-logo-invertocat&#8221; href=&#8221;<a class="reference external" href="https://github.com/">https://github.com/</a>&#8221; aria-label=&#8221;Homepage&#8221; ga-data-click=&#8221;Header, go to dashboard, icon:logo&#8221;&gt;</div></blockquote>
+<p>&lt;span class=&#8221;mega-octicon octicon-mark-github&#8221;&gt;&lt;/span&gt;</p>
+</div></blockquote>
+<p>&lt;/a&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;site-search repo-scope js-site-search&#8221;&gt;</dt>
+<dd>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/BigOpenData/BigOpenApi/search&#8221; class=&#8221;js-site-search-form&#8221; data-global-search-url=&#8221;/search&#8221; data-repo-search-url=&#8221;/BigOpenData/BigOpenApi/search&#8221; method=&#8221;get&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;/div&gt;</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;input type=&#8221;text&#8221;</dt>
+<dd>class=&#8221;js-site-search-field is-clearable&#8221;
+data-hotkey=&#8221;s&#8221;
+name=&#8221;q&#8221;
+placeholder=&#8221;Search&#8221;
+data-global-scope-placeholder=&#8221;Search GitHub&#8221;
+data-repo-scope-placeholder=&#8221;Search&#8221;
+tabindex=&#8221;1&#8221;
+autocapitalize=&#8221;off&#8221;&gt;</dd>
+</dl>
+<p>&lt;div class=&#8221;scope-badge&#8221;&gt;This repository&lt;/div&gt;</p>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/form&gt;</dt>
+<dd><p class="first">&lt;/div&gt;
+&lt;ul class=&#8221;header-nav left&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;header-nav-item explore&#8221;&gt;</dt>
+<dd>&lt;a class=&#8221;header-nav-link&#8221; href=&#8221;/explore&#8221; data-ga-click=&#8221;Header, go to explore, text:explore&#8221;&gt;Explore&lt;/a&gt;</dd>
+<dt>&lt;/li&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;li class=&#8221;header-nav-item&#8221;&gt;</dt>
+<dd>&lt;a class=&#8221;header-nav-link&#8221; href=&#8221;<a class="reference external" href="https://gist.github.com">https://gist.github.com</a>&#8221; data-ga-click=&#8221;Header, go to gist, text:gist&#8221;&gt;Gist&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;
+&lt;li class=&#8221;header-nav-item&#8221;&gt;</p>
+<blockquote>
+<div>&lt;a class=&#8221;header-nav-link&#8221; href=&#8221;/blog&#8221; data-ga-click=&#8221;Header, go to blog, text:blog&#8221;&gt;Blog&lt;/a&gt;</div></blockquote>
+<p class="last">&lt;/li&gt;</p>
+</dd>
+<dt>&lt;li class=&#8221;header-nav-item&#8221;&gt;</dt>
+<dd>&lt;a class=&#8221;header-nav-link&#8221; href=&#8221;<a class="reference external" href="https://help.github.com">https://help.github.com</a>&#8221; data-ga-click=&#8221;Header, go to help, text:help&#8221;&gt;Help&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/ul&gt;</p>
+</dd>
+<dt>&lt;ul class=&#8221;header-nav user-nav right&#8221; id=&#8221;user-links&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;li class=&#8221;header-nav-item dropdown js-menu-container&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;header-nav-link name&#8221; href=&#8221;/BigOpenData&#8221; data-ga-click=&#8221;Header, go to profile, text:username&#8221;&gt;</dt>
+<dd><p class="first">&lt;img alt=&#8221;BigOpenData&#8221; class=&#8221;avatar&#8221; data-user=&#8221;8199827&#8221; height=&#8221;20&#8221; src=&#8221;<a class="reference external" href="https://avatars3.githubusercontent.com/u/8199827?v=2&amp;amp;s=40">https://avatars3.githubusercontent.com/u/8199827?v=2&amp;amp;s=40</a>&#8221; width=&#8221;20&#8221; /&gt;
+&lt;span class=&#8221;css-truncate&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span class=&#8221;css-truncate-target&#8221;&gt;BigOpenData&lt;/span&gt;</div></blockquote>
+<p class="last">&lt;/span&gt;</p>
+</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+<p>&lt;/li&gt;</p>
+<dl class="last docutils">
+<dt>&lt;li class=&#8221;header-nav-item dropdown js-menu-container&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;header-nav-link js-menu-target tooltipped tooltipped-s&#8221; href=&#8221;#&#8221; aria-label=&#8221;Create new...&#8221; data-ga-click=&#8221;Header, create new, icon:add&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-plus&#8221;&gt;&lt;/span&gt;
+&lt;span class=&#8221;dropdown-caret&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/a&gt;</p>
+<p class="last">&lt;div class=&#8221;dropdown-menu-content js-menu-content&#8221;&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt>&lt;ul class=&#8221;dropdown-menu&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;li&gt;</dt>
+<dd>&lt;a href=&#8221;/new&#8221;&gt;&lt;span class=&#8221;octicon octicon-repo&#8221;&gt;&lt;/span&gt; New repository&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;
+&lt;li&gt;</p>
+<blockquote>
+<div>&lt;a href=&#8221;/organizations/new&#8221;&gt;&lt;span class=&#8221;octicon octicon-organization&#8221;&gt;&lt;/span&gt; New organization&lt;/a&gt;</div></blockquote>
+<p>&lt;/li&gt;</p>
+<blockquote class="last">
+<div><p>&lt;li class=&#8221;dropdown-divider&#8221;&gt;&lt;/li&gt;
+&lt;li class=&#8221;dropdown-header&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span title=&#8221;BigOpenData/BigOpenApi&#8221;&gt;This repository&lt;/span&gt;</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/li&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;li&gt;</dt>
+<dd>&lt;a href=&#8221;/BigOpenData/BigOpenApi/issues/new&#8221;&gt;&lt;span class=&#8221;octicon octicon-issue-opened&#8221;&gt;&lt;/span&gt; New issue&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;
+&lt;li&gt;</p>
+<blockquote>
+<div>&lt;a href=&#8221;/BigOpenData/BigOpenApi/settings/collaboration&#8221;&gt;&lt;span class=&#8221;octicon octicon-person&#8221;&gt;&lt;/span&gt; New collaborator&lt;/a&gt;</div></blockquote>
+<p class="last">&lt;/li&gt;</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/ul&gt;</p>
+<blockquote>
+<div><blockquote>
+<div>&lt;/div&gt;</div></blockquote>
+<p>&lt;/li&gt;</p>
+<dl class="docutils">
+<dt>&lt;li class=&#8221;header-nav-item&#8221;&gt;</dt>
+<dd>&lt;a href=&#8221;/notifications&#8221; aria-label=&#8221;You have no unread notifications&#8221; class=&#8221;header-nav-link notification-indicator tooltipped tooltipped-s&#8221; data-ga-click=&#8221;Header, go to notifications, icon:read&#8221; data-hotkey=&#8221;g n&#8221;&gt;
+&lt;span class=&#8221;mail-status all-read&#8221;&gt;&lt;/span&gt;
+&lt;span class=&#8221;octicon octicon-inbox&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/a&gt;</dt>
+<dd><p class="first">&lt;/li&gt;</p>
+<dl class="docutils">
+<dt>&lt;li class=&#8221;header-nav-item&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;header-nav-link tooltipped tooltipped-s&#8221; href=&#8221;/settings/profile&#8221; id=&#8221;account_settings&#8221; aria-label=&#8221;Settings&#8221; data-ga-click=&#8221;Header, go to settings, icon:settings&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-gear&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+<p>&lt;/li&gt;</p>
+<dl class="last docutils">
+<dt>&lt;li class=&#8221;header-nav-item&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/logout&#8221; class=&#8221;logout-form&#8221; method=&#8221;post&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;input name=&#8221;authenticity_token&#8221; type=&#8221;hidden&#8221; value=&#8221;DHAchqlaz62AUEGqk0saKbGix8FL4dzGMfRP6KSlnMXXjOFUhGGMzZoJBEoHfKDrbVlqriMYGhQBlXlyDjQGcw==&#8221; /&gt;&lt;/div&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;button class=&#8221;header-nav-link sign-out-button tooltipped tooltipped-s&#8221; aria-label=&#8221;Sign out&#8221; data-ga-click=&#8221;Header, sign out, icon:logout&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-sign-out&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p class="last">&lt;/button&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/form&gt;  &lt;/li&gt;</p>
+<p>&lt;/ul&gt;</p>
+<blockquote>
+<div>&lt;/div&gt;</div></blockquote>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;div id=&#8221;start-of-content&#8221; class=&#8221;accessibility-aid&#8221;&gt;&lt;/div&gt;</dt>
+<dd>&lt;div class=&#8221;site&#8221; itemscope itemtype=&#8221;<a class="reference external" href="http://schema.org/WebPage">http://schema.org/WebPage</a>&#8220;&gt;</dd>
+</dl>
+</div></blockquote>
+<p>&lt;div id=&#8221;js-flash-container&#8221;&gt;</p>
+<p>&lt;/div&gt;
+&lt;div class=&#8221;pagehead repohead instapaper_ignore readability-menu&#8221;&gt;</p>
+<blockquote>
+<div>&lt;div class=&#8221;container&#8221;&gt;</div></blockquote>
+</div></blockquote>
+<p>&lt;ul class=&#8221;pagehead-actions&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;subscription&#8221;&gt;</dt>
+<dd>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/notifications/subscribe&#8221; class=&#8221;js-social-container&#8221; data-autosubmit=&#8221;true&#8221; data-remote=&#8221;true&#8221; method=&#8221;post&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;input name=&#8221;authenticity_token&#8221; type=&#8221;hidden&#8221; value=&#8221;2CR72XjxZiz3gcf1YYvqKgnsge6Zf5ev3DVCiFlVUT5OA5hvFYD7k9GVafBmdZR+HOlaMBk31jrbMLpd3lT9bg==&#8221; /&gt;&lt;/div&gt;  &lt;input id=&#8221;repository_id&#8221; name=&#8221;repository_id&#8221; type=&#8221;hidden&#8221; value=&#8221;21974744&#8221; /&gt;</dd>
+<dt>&lt;div class=&#8221;select-menu js-menu-container js-select-menu&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;social-count js-social-count&#8221; href=&#8221;/BigOpenData/BigOpenApi/watchers&#8221;&gt;</dt>
+<dd>1</dd>
+</dl>
+<p>&lt;/a&gt;
+&lt;a href=&#8221;/BigOpenData/BigOpenApi/subscription&#8221;</p>
+<blockquote>
+<div><p>class=&#8221;minibutton select-menu-button with-count js-menu-target&#8221; role=&#8221;button&#8221; tabindex=&#8221;0&#8221; aria-haspopup=&#8221;true&#8221;&gt;
+&lt;span class=&#8221;js-select-button&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span class=&#8221;octicon octicon-eye&#8221;&gt;&lt;/span&gt;
+Unwatch</div></blockquote>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p>&lt;/a&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-modal-holder&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;select-menu-modal subscription-menu-modal js-menu-content&#8221; aria-hidden=&#8221;true&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;select-menu-header&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;select-menu-title&#8221;&gt;Notifications&lt;/span&gt;
+&lt;span class=&#8221;octicon octicon-x js-menu-close&#8221; role=&#8221;button&#8221; aria-label=&#8221;Close&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-header &#8211;&gt;</p>
+<p>&lt;div class=&#8221;select-menu-list js-navigation-container&#8221; role=&#8221;menu&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-item js-navigation-item &#8221; role=&#8221;menuitem&#8221; tabindex=&#8221;0&#8221;&gt;</dt>
+<dd><p class="first">&lt;span class=&#8221;select-menu-item-icon octicon octicon-check&#8221;&gt;&lt;/span&gt;
+&lt;div class=&#8221;select-menu-item-text&#8221;&gt;</p>
+<blockquote>
+<div><p>&lt;input id=&#8221;do_included&#8221; name=&#8221;do&#8221; type=&#8221;radio&#8221; value=&#8221;included&#8221; /&gt;
+&lt;h4&gt;Not watching&lt;/h4&gt;
+&lt;span class=&#8221;description&#8221;&gt;Be notified when participating or &#64;mentioned.&lt;/span&gt;
+&lt;span class=&#8221;js-select-button-text hidden-select-button-text&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span class=&#8221;octicon octicon-eye&#8221;&gt;&lt;/span&gt;
+Watch</div></blockquote>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-item &#8211;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-item js-navigation-item selected&#8221; role=&#8221;menuitem&#8221; tabindex=&#8221;0&#8221;&gt;</dt>
+<dd><p class="first">&lt;span class=&#8221;select-menu-item-icon octicon octicon octicon-check&#8221;&gt;&lt;/span&gt;
+&lt;div class=&#8221;select-menu-item-text&#8221;&gt;</p>
+<blockquote>
+<div><p>&lt;input checked=&#8221;checked&#8221; id=&#8221;do_subscribed&#8221; name=&#8221;do&#8221; type=&#8221;radio&#8221; value=&#8221;subscribed&#8221; /&gt;
+&lt;h4&gt;Watching&lt;/h4&gt;
+&lt;span class=&#8221;description&#8221;&gt;Be notified of all conversations.&lt;/span&gt;
+&lt;span class=&#8221;js-select-button-text hidden-select-button-text&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span class=&#8221;octicon octicon-eye&#8221;&gt;&lt;/span&gt;
+Unwatch</div></blockquote>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-item &#8211;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-item js-navigation-item &#8221; role=&#8221;menuitem&#8221; tabindex=&#8221;0&#8221;&gt;</dt>
+<dd><p class="first">&lt;span class=&#8221;select-menu-item-icon octicon octicon-check&#8221;&gt;&lt;/span&gt;
+&lt;div class=&#8221;select-menu-item-text&#8221;&gt;</p>
+<blockquote>
+<div><p>&lt;input id=&#8221;do_ignore&#8221; name=&#8221;do&#8221; type=&#8221;radio&#8221; value=&#8221;ignore&#8221; /&gt;
+&lt;h4&gt;Ignoring&lt;/h4&gt;
+&lt;span class=&#8221;description&#8221;&gt;Never be notified.&lt;/span&gt;
+&lt;span class=&#8221;js-select-button-text hidden-select-button-text&#8221;&gt;</p>
+<blockquote>
+<div>&lt;span class=&#8221;octicon octicon-mute&#8221;&gt;&lt;/span&gt;
+Stop ignoring</div></blockquote>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-item &#8211;&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt; &lt;!&#8211; /.select-menu-list &#8211;&gt;</p>
+</dd>
+</dl>
+<p class="last">&lt;/div&gt; &lt;!&#8211; /.select-menu-modal &#8211;&gt;</p>
+</dd>
+</dl>
+<p class="last">&lt;/div&gt; &lt;!&#8211; /.select-menu-modal-holder &#8211;&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu &#8211;&gt;</p>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/form&gt;</dt>
+<dd><blockquote class="first">
+<div>&lt;/li&gt;</div></blockquote>
+<p>&lt;li&gt;</p>
+<p>&lt;div class=&#8221;js-toggler-container js-social-container starring-container &#8220;&gt;</p>
+<blockquote class="last">
+<div><dl class="docutils">
+<dt>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/BigOpenData/BigOpenApi/unstar&#8221; class=&#8221;js-toggler-form starred js-unstar-button&#8221; data-remote=&#8221;true&#8221; method=&#8221;post&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;input name=&#8221;authenticity_token&#8221; type=&#8221;hidden&#8221; value=&#8221;mm3M/iSFBUPWTEWPXwiwHA0qTXLBhOzAfOOtZ0L8wSx450aoMkAzruGkqsavELwf/zPz4vADFMNIoygz6rEkfQ==&#8221; /&gt;&lt;/div&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;button</dt>
+<dd>class=&#8221;minibutton with-count js-toggler-target star-button&#8221;
+aria-label=&#8221;Unstar this repository&#8221; title=&#8221;Unstar BigOpenData/BigOpenApi&#8221;&gt;
+&lt;span class=&#8221;octicon octicon-star&#8221;&gt;&lt;/span&gt;
+Unstar</dd>
+<dt>&lt;/button&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;social-count js-social-count&#8221; href=&#8221;/BigOpenData/BigOpenApi/stargazers&#8221;&gt;</dt>
+<dd>0</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd>
+<dt>&lt;/form&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/BigOpenData/BigOpenApi/star&#8221; class=&#8221;js-toggler-form unstarred js-star-button&#8221; data-remote=&#8221;true&#8221; method=&#8221;post&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;input name=&#8221;authenticity_token&#8221; type=&#8221;hidden&#8221; value=&#8221;TwGQSckVd4sjFAcFbkWMWYUS54agotiIctcnXixfoXmliK7oKpVBEhNp07ghgA4BkOxQg+4wejBM8u9S/RDgww==&#8221; /&gt;&lt;/div&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;button</dt>
+<dd>class=&#8221;minibutton with-count js-toggler-target star-button&#8221;
+aria-label=&#8221;Star this repository&#8221; title=&#8221;Star BigOpenData/BigOpenApi&#8221;&gt;
+&lt;span class=&#8221;octicon octicon-star&#8221;&gt;&lt;/span&gt;
+Star</dd>
+<dt>&lt;/button&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a class=&#8221;social-count js-social-count&#8221; href=&#8221;/BigOpenData/BigOpenApi/stargazers&#8221;&gt;</dt>
+<dd>0</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/form&gt;  &lt;/div&gt;</p>
+<blockquote>
+<div><p>&lt;/li&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/fork&#8221; class=&#8221;minibutton with-count js-toggler-target fork-button tooltipped-n&#8221; title=&#8221;Fork your own copy of BigOpenData/BigOpenApi to your account&#8221; aria-label=&#8221;Fork your own copy of BigOpenData/BigOpenApi to your account&#8221; rel=&#8221;nofollow&#8221; data-method=&#8221;post&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-repo-forked&#8221;&gt;&lt;/span&gt;
+Fork</dd>
+</dl>
+<p class="last">&lt;/a&gt;
+&lt;a href=&#8221;/BigOpenData/BigOpenApi/network&#8221; class=&#8221;social-count&#8221;&gt;1&lt;/a&gt;</p>
+</dd>
+</dl>
+<p>&lt;/li&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/ul&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;h1 itemscope itemtype=&#8221;<a class="reference external" href="http://data-vocabulary.org/Breadcrumb">http://data-vocabulary.org/Breadcrumb</a>&#8221; class=&#8221;entry-title public&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;mega-octicon octicon-repo&#8221;&gt;&lt;/span&gt;
+&lt;span class=&#8221;author&#8221;&gt;&lt;a href=&#8221;/BigOpenData&#8221; class=&#8221;url fn&#8221; itemprop=&#8221;url&#8221; rel=&#8221;author&#8221;&gt;&lt;span itemprop=&#8221;title&#8221;&gt;BigOpenData&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;!&#8211;</dd>
+</dl>
+</div></blockquote>
+<p>&#8211;&gt;&lt;span class=&#8221;path-divider&#8221;&gt;/&lt;/span&gt;&lt;!&#8211;
+&#8211;&gt;&lt;strong&gt;&lt;a href=&#8221;/BigOpenData/BigOpenApi&#8221; class=&#8221;js-current-repository js-repo-home-link&#8221;&gt;BigOpenApi&lt;/a&gt;&lt;/strong&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;span class=&#8221;page-context-loader&#8221;&gt;</dt>
+<dd>&lt;img alt=&#8221;&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p>&lt;/h1&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.container &#8211;&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.repohead &#8211;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;container&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;div class=&#8221;repository-with-sidebar repo-container new-discussion-timeline  &#8220;&gt;</dt>
+<dd>&lt;div class=&#8221;repository-sidebar clearfix&#8221;&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders&#8221; data-issue-count-url=&#8221;/BigOpenData/BigOpenApi/issues/counts&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;div class=&#8221;sunken-menu-contents&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;ul class=&#8221;sunken-menu-group&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Code&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi&#8221; aria-label=&#8221;Code&#8221; class=&#8221;selected js-selected-navigation-item sunken-menu-item&#8221; data-hotkey=&#8221;g c&#8221; data-pjax=&#8221;true&#8221; data-selected-links=&#8221;repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /BigOpenData/BigOpenApi&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-code&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Code&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/a&gt;      &lt;/li&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Issues&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/issues&#8221; aria-label=&#8221;Issues&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item js-disable-pjax&#8221; data-hotkey=&#8221;g i&#8221; data-selected-links=&#8221;repo_issues repo_labels repo_milestones /BigOpenData/BigOpenApi/issues&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-issue-opened&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Issues&lt;/span&gt;
+&lt;span class=&#8221;js-issue-replace-counter&#8221;&gt;&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<p>&lt;/a&gt;        &lt;/li&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Pull Requests&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/pulls&#8221; aria-label=&#8221;Pull Requests&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item js-disable-pjax&#8221; data-hotkey=&#8221;g p&#8221; data-selected-links=&#8221;repo_pulls /BigOpenData/BigOpenApi/pulls&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-git-pull-request&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Pull Requests&lt;/span&gt;
+&lt;span class=&#8221;js-pull-replace-counter&#8221;&gt;&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<p>&lt;/a&gt;      &lt;/li&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Wiki&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/wiki&#8221; aria-label=&#8221;Wiki&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item js-disable-pjax&#8221; data-hotkey=&#8221;g w&#8221; data-selected-links=&#8221;repo_wiki /BigOpenData/BigOpenApi/wiki&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-book&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Wiki&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/a&gt;        &lt;/li&gt;</dt>
+<dd><p class="first">&lt;/ul&gt;
+&lt;div class=&#8221;sunken-menu-separator&#8221;&gt;&lt;/div&gt;
+&lt;ul class=&#8221;sunken-menu-group&#8221;&gt;</p>
+<blockquote class="last">
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Pulse&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/pulse/weekly&#8221; aria-label=&#8221;Pulse&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item&#8221; data-pjax=&#8221;true&#8221; data-selected-links=&#8221;pulse /BigOpenData/BigOpenApi/pulse/weekly&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-pulse&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Pulse&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/a&gt;      &lt;/li&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Graphs&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/graphs&#8221; aria-label=&#8221;Graphs&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item&#8221; data-pjax=&#8221;true&#8221; data-selected-links=&#8221;repo_graphs repo_contributors /BigOpenData/BigOpenApi/graphs&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-graph&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Graphs&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;/a&gt;      &lt;/li&gt;</dt>
+<dd><p class="first">&lt;/ul&gt;</p>
+<blockquote class="last">
+<div><p>&lt;div class=&#8221;sunken-menu-separator&#8221;&gt;&lt;/div&gt;
+&lt;ul class=&#8221;sunken-menu-group&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;tooltipped tooltipped-w&#8221; aria-label=&#8221;Settings&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/settings&#8221; aria-label=&#8221;Settings&#8221; class=&#8221;js-selected-navigation-item sunken-menu-item&#8221; data-pjax=&#8221;true&#8221; data-selected-links=&#8221;repo_settings /BigOpenData/BigOpenApi/settings&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-tools&#8221;&gt;&lt;/span&gt; &lt;span class=&#8221;full-word&#8221;&gt;Settings&lt;/span&gt;
+&lt;img alt=&#8221;&#8221; class=&#8221;mini-loader&#8221; height=&#8221;16&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif">https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif</a>&#8221; width=&#8221;16&#8221; /&gt;</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</div></blockquote>
+</dd>
+<dt>&lt;/a&gt;        &lt;/li&gt;</dt>
+<dd><blockquote class="first">
+<div>&lt;/ul&gt;</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div>&lt;div class=&#8221;only-with-full-nav&#8221;&gt;</div></blockquote>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;clone-url open&#8221;</dt>
+<dd><p class="first">data-protocol-type=&#8221;http&#8221;
+data-url=&#8221;/users/set_protocol?protocol_selector=http&amp;amp;protocol_type=push&#8221;&gt;
+&lt;h3&gt;&lt;span class=&#8221;text-emphasized&#8221;&gt;HTTPS&lt;/span&gt; clone URL&lt;/h3&gt;
+&lt;div class=&#8221;input-group&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;input type=&#8221;text&#8221; class=&#8221;input-mini input-monospace js-url-field&#8221;</dt>
+<dd>value=&#8221;<a class="reference external" href="https://github.com/BigOpenData/BigOpenApi.git">https://github.com/BigOpenData/BigOpenApi.git</a>&#8221; readonly=&#8221;readonly&#8221;&gt;</dd>
+<dt>&lt;span class=&#8221;input-group-button&#8221;&gt;</dt>
+<dd>&lt;button aria-label=&#8221;Copy to clipboard&#8221; class=&#8221;js-zeroclipboard minibutton zeroclipboard-button&#8221; data-clipboard-text=&#8221;<a class="reference external" href="https://github.com/BigOpenData/BigOpenApi.git">https://github.com/BigOpenData/BigOpenApi.git</a>&#8221; data-copied-hint=&#8221;Copied!&#8221; type=&#8221;button&#8221;&gt;&lt;span class=&#8221;octicon octicon-clippy&#8221;&gt;&lt;/span&gt;&lt;/button&gt;</dd>
+</dl>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;clone-url &#8220;</dt>
+<dd><p class="first">data-protocol-type=&#8221;ssh&#8221;
+data-url=&#8221;/users/set_protocol?protocol_selector=ssh&amp;amp;protocol_type=push&#8221;&gt;
+&lt;h3&gt;&lt;span class=&#8221;text-emphasized&#8221;&gt;SSH&lt;/span&gt; clone URL&lt;/h3&gt;
+&lt;div class=&#8221;input-group&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;input type=&#8221;text&#8221; class=&#8221;input-mini input-monospace js-url-field&#8221;</dt>
+<dd>value=&#8221;<a class="reference external" href="mailto:git&#37;&#52;&#48;github&#46;com">git<span>&#64;</span>github<span>&#46;</span>com</a>:BigOpenData/BigOpenApi.git&#8221; readonly=&#8221;readonly&#8221;&gt;</dd>
+<dt>&lt;span class=&#8221;input-group-button&#8221;&gt;</dt>
+<dd>&lt;button aria-label=&#8221;Copy to clipboard&#8221; class=&#8221;js-zeroclipboard minibutton zeroclipboard-button&#8221; data-clipboard-text=&#8221;<a class="reference external" href="mailto:git&#37;&#52;&#48;github&#46;com">git<span>&#64;</span>github<span>&#46;</span>com</a>:BigOpenData/BigOpenApi.git&#8221; data-copied-hint=&#8221;Copied!&#8221; type=&#8221;button&#8221;&gt;&lt;span class=&#8221;octicon octicon-clippy&#8221;&gt;&lt;/span&gt;&lt;/button&gt;</dd>
+</dl>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;clone-url &#8220;</dt>
+<dd><p class="first">data-protocol-type=&#8221;subversion&#8221;
+data-url=&#8221;/users/set_protocol?protocol_selector=subversion&amp;amp;protocol_type=push&#8221;&gt;
+&lt;h3&gt;&lt;span class=&#8221;text-emphasized&#8221;&gt;Subversion&lt;/span&gt; checkout URL&lt;/h3&gt;
+&lt;div class=&#8221;input-group&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;input type=&#8221;text&#8221; class=&#8221;input-mini input-monospace js-url-field&#8221;</dt>
+<dd>value=&#8221;<a class="reference external" href="https://github.com/BigOpenData/BigOpenApi">https://github.com/BigOpenData/BigOpenApi</a>&#8221; readonly=&#8221;readonly&#8221;&gt;</dd>
+<dt>&lt;span class=&#8221;input-group-button&#8221;&gt;</dt>
+<dd>&lt;button aria-label=&#8221;Copy to clipboard&#8221; class=&#8221;js-zeroclipboard minibutton zeroclipboard-button&#8221; data-clipboard-text=&#8221;<a class="reference external" href="https://github.com/BigOpenData/BigOpenApi">https://github.com/BigOpenData/BigOpenApi</a>&#8221; data-copied-hint=&#8221;Copied!&#8221; type=&#8221;button&#8221;&gt;&lt;span class=&#8221;octicon octicon-clippy&#8221;&gt;&lt;/span&gt;&lt;/button&gt;</dd>
+</dl>
+<p>&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<dl class="docutils">
+<dt>&lt;p class=&#8221;clone-options&#8221;&gt;You can clone with</dt>
+<dd><blockquote class="first">
+<div>&lt;a href=&#8221;#&#8221; class=&#8221;js-clone-selector&#8221; data-protocol=&#8221;http&#8221;&gt;HTTPS&lt;/a&gt;,
+&lt;a href=&#8221;#&#8221; class=&#8221;js-clone-selector&#8221; data-protocol=&#8221;ssh&#8221;&gt;SSH&lt;/a&gt;,
+or &lt;a href=&#8221;#&#8221; class=&#8221;js-clone-selector&#8221; data-protocol=&#8221;subversion&#8221;&gt;Subversion&lt;/a&gt;.</div></blockquote>
+<dl class="docutils">
+<dt>&lt;a href=&#8221;<a class="reference external" href="https://help.github.com/articles/which-remote-url-should-i-use">https://help.github.com/articles/which-remote-url-should-i-use</a>&#8221; class=&#8221;help tooltipped tooltipped-n&#8221; aria-label=&#8221;Get help on which URL is right for you.&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-question&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+<p>&lt;/p&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;a href=&#8221;github-windows://openRepo/https://github.com/BigOpenData/BigOpenApi&#8221; class=&#8221;minibutton sidebar-button&#8221; title=&#8221;Save BigOpenData/BigOpenApi to your computer and use it in GitHub Desktop.&#8221; aria-label=&#8221;Save BigOpenData/BigOpenApi to your computer and use it in GitHub Desktop.&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-device-desktop&#8221;&gt;&lt;/span&gt;
+Clone in Desktop</dd>
+</dl>
+<p>&lt;/a&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/archive/master.zip&#8221;</dt>
+<dd><blockquote class="first">
+<div>class=&#8221;minibutton sidebar-button&#8221;
+aria-label=&#8221;Download the contents of BigOpenData/BigOpenApi as a zip file&#8221;
+title=&#8221;Download the contents of BigOpenData/BigOpenApi as a zip file&#8221;
+rel=&#8221;nofollow&#8221;&gt;</div></blockquote>
+<p class="last">&lt;span class=&#8221;octicon octicon-cloud-download&#8221;&gt;&lt;/span&gt;
+Download ZIP</p>
+</dd>
+</dl>
+<p>&lt;/a&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.repository-sidebar &#8211;&gt;</p>
+<p>&lt;div id=&#8221;js-repo-pjax-container&#8221; class=&#8221;repository-content context-loader-container&#8221; data-pjax-container&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;a href=&#8221;/BigOpenData/BigOpenApi/blob/3ad770d1ee9004a889c6e21703711394fb20f55c/docs/source/objetorespuesta.rst&#8221; class=&#8221;hidden js-permalink-shortcut&#8221; data-hotkey=&#8221;y&#8221;&gt;Permalink&lt;/a&gt;</p>
+<p>&lt;!&#8211; blob contrib key: blob_contributors:v21:3552a74e9c0ab84a16f1c42c62bf1b6a &#8211;&gt;</p>
+<p>&lt;div class=&#8221;file-navigation&#8221;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu js-menu-container js-select-menu left&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;span class=&#8221;minibutton select-menu-button js-menu-target css-truncate&#8221; data-hotkey=&#8221;w&#8221;</dt>
+<dd>data-master-branch=&#8221;master&#8221;
+data-ref=&#8221;master&#8221;
+title=&#8221;master&#8221;
+role=&#8221;button&#8221; aria-label=&#8221;Switch branches or tags&#8221; tabindex=&#8221;0&#8221; aria-haspopup=&#8221;true&#8221;&gt;
+&lt;span class=&#8221;octicon octicon-git-branch&#8221;&gt;&lt;/span&gt;
+&lt;i&gt;branch:&lt;/i&gt;
+&lt;span class=&#8221;js-select-button css-truncate-target&#8221;&gt;master&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/span&gt;</p>
+<p>&lt;div class=&#8221;select-menu-modal-holder js-menu-content js-navigation-container&#8221; data-pjax aria-hidden=&#8221;true&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-modal&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;select-menu-header&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;select-menu-title&#8221;&gt;Switch branches/tags&lt;/span&gt;
+&lt;span class=&#8221;octicon octicon-x js-menu-close&#8221; role=&#8221;button&#8221; aria-label=&#8221;Close&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-header &#8211;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-filters&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;select-menu-text-filter&#8221;&gt;</dt>
+<dd>&lt;input type=&#8221;text&#8221; aria-label=&#8221;Find or create a branch…&#8221; id=&#8221;context-commitish-filter-field&#8221; class=&#8221;js-filterable-field js-navigation-enable&#8221; placeholder=&#8221;Find or create a branch…&#8221;&gt;</dd>
+</dl>
+<p>&lt;/div&gt;
+&lt;div class=&#8221;select-menu-tabs&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;ul&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;li class=&#8221;select-menu-tab&#8221;&gt;</dt>
+<dd>&lt;a href=&#8221;#&#8221; data-tab-filter=&#8221;branches&#8221; class=&#8221;js-select-menu-tab&#8221;&gt;Branches&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;
+&lt;li class=&#8221;select-menu-tab&#8221;&gt;</p>
+<blockquote>
+<div>&lt;a href=&#8221;#&#8221; data-tab-filter=&#8221;tags&#8221; class=&#8221;js-select-menu-tab&#8221;&gt;Tags&lt;/a&gt;</div></blockquote>
+<p class="last">&lt;/li&gt;</p>
+</dd>
+</dl>
+<p>&lt;/ul&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;&lt;!&#8211; /.select-menu-tabs &#8211;&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;&lt;!&#8211; /.select-menu-filters &#8211;&gt;</p>
+<p>&lt;div class=&#8221;select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket&#8221; data-tab-filter=&#8221;branches&#8221;&gt;</p>
+<blockquote>
+<div><p>&lt;div data-filterable-for=&#8221;context-commitish-filter-field&#8221; data-filterable-type=&#8221;substring&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-item js-navigation-item selected&#8221;&gt;</dt>
+<dd><p class="first">&lt;span class=&#8221;select-menu-item-icon octicon octicon-check&#8221;&gt;&lt;/span&gt;
+&lt;a href=&#8221;/BigOpenData/BigOpenApi/blob/master/docs/source/objetorespuesta.rst&#8221;</p>
+<blockquote class="last">
+<div>data-name=&#8221;master&#8221;
+data-skip-pjax=&#8221;true&#8221;
+rel=&#8221;nofollow&#8221;
+class=&#8221;js-navigation-open select-menu-item-text css-truncate-target&#8221;
+title=&#8221;master&#8221;&gt;master&lt;/a&gt;</div></blockquote>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-item &#8211;&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;form accept-charset=&#8221;UTF-8&#8221; action=&#8221;/BigOpenData/BigOpenApi/branches&#8221; class=&#8221;js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form&#8221; method=&#8221;post&#8221;&gt;&lt;div style=&#8221;margin:0;padding:0;display:inline&#8221;&gt;&lt;input name=&#8221;utf8&#8221; type=&#8221;hidden&#8221; value=&#8221;&amp;#x2713;&#8221; /&gt;&lt;input name=&#8221;authenticity_token&#8221; type=&#8221;hidden&#8221; value=&#8221;zQEe0Q3mX/vg2urZ8F4d/Md8BzA0iDwM8emdH+cotYgPRmioO9hvFSqzhdGa2OrnlnIeSg7SSqbpSbqcwpSCrw==&#8221; /&gt;&lt;/div&gt;</dt>
+<dd><p class="first">&lt;span class=&#8221;octicon octicon-git-branch select-menu-item-icon&#8221;&gt;&lt;/span&gt;
+&lt;div class=&#8221;select-menu-item-text&#8221;&gt;</p>
+<blockquote>
+<div>&lt;h4&gt;Create branch: &lt;span class=&#8221;js-new-item-name&#8221;&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;span class=&#8221;description&#8221;&gt;from ‘master’&lt;/span&gt;</div></blockquote>
+<p class="last">&lt;/div&gt;
+&lt;input type=&#8221;hidden&#8221; name=&#8221;name&#8221; id=&#8221;name&#8221; class=&#8221;js-new-item-value&#8221;&gt;
+&lt;input type=&#8221;hidden&#8221; name=&#8221;branch&#8221; id=&#8221;branch&#8221; value=&#8221;master&#8221;&gt;
+&lt;input type=&#8221;hidden&#8221; name=&#8221;path&#8221; id=&#8221;path&#8221; value=&#8221;docs/source/objetorespuesta.rst&#8221;&gt;</p>
+</dd>
+</dl>
+<p>&lt;/form&gt; &lt;!&#8211; /.select-menu-item &#8211;&gt;</p>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-list &#8211;&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket&#8221; data-tab-filter=&#8221;tags&#8221;&gt;</dt>
+<dd><p class="first">&lt;div data-filterable-for=&#8221;context-commitish-filter-field&#8221; data-filterable-type=&#8221;substring&#8221;&gt;</p>
+<p>&lt;/div&gt;</p>
+<p class="last">&lt;div class=&#8221;select-menu-no-results&#8221;&gt;Nothing to show&lt;/div&gt;</p>
+</dd>
+</dl>
+<p class="last">&lt;/div&gt; &lt;!&#8211; /.select-menu-list &#8211;&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu-modal &#8211;&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt; &lt;!&#8211; /.select-menu-modal-holder &#8211;&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt; &lt;!&#8211; /.select-menu &#8211;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;button-group right&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/find/master&#8221;</dt>
+<dd><blockquote class="first">
+<div>class=&#8221;js-show-file-finder minibutton empty-icon tooltipped tooltipped-s&#8221;
+data-pjax
+data-hotkey=&#8221;t&#8221;
+aria-label=&#8221;Quickly jump between files&#8221;&gt;</div></blockquote>
+<p class="last">&lt;span class=&#8221;octicon octicon-list-unordered&#8221;&gt;&lt;/span&gt;</p>
+</dd>
+</dl>
+<p>&lt;/a&gt;
+&lt;button class=&#8221;js-zeroclipboard minibutton zeroclipboard-button&#8221;</p>
+<blockquote>
+<div><blockquote>
+<div>data-clipboard-text=&#8221;docs/source/objetorespuesta.rst&#8221;
+aria-label=&#8221;Copy to clipboard&#8221;
+data-copied-hint=&#8221;Copied!&#8221;&gt;</div></blockquote>
+<p>&lt;span class=&#8221;octicon octicon-clippy&#8221;&gt;&lt;/span&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/button&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;breadcrumb&#8221;&gt;</dt>
+<dd>&lt;span class=&#8217;repo-root js-repo-root&#8217;&gt;&lt;span itemscope=&#8221;&#8221; itemtype=&#8221;<a class="reference external" href="http://data-vocabulary.org/Breadcrumb">http://data-vocabulary.org/Breadcrumb</a>&#8220;&gt;&lt;a href=&#8221;/BigOpenData/BigOpenApi&#8221; class=&#8221;&#8221; data-branch=&#8221;master&#8221; data-direction=&#8221;back&#8221; data-pjax=&#8221;true&#8221; itemscope=&#8221;url&#8221;&gt;&lt;span itemprop=&#8221;title&#8221;&gt;BigOpenApi&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#8221;separator&#8221;&gt; / &lt;/span&gt;&lt;span itemscope=&#8221;&#8221; itemtype=&#8221;<a class="reference external" href="http://data-vocabulary.org/Breadcrumb">http://data-vocabulary.org/Breadcrumb</a>&#8220;&gt;&lt;a href=&#8221;/BigOpenData/BigOpenApi/tree/master/docs&#8221; class=&#8221;&#8221; data-branch=&#8221;master&#8221; data-direction=&#8221;back&#8221; data-pjax=&#8221;true&#8221; itemscope=&#8221;url&#8221;&gt;&lt;span itemprop=&#8221;title&#8221;&gt;docs&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&#8221;separator&#8221;&gt; / &lt;/span&gt;&lt;span itemscope=&#8221;&#8221; itemtype=&#8221;<a class="reference external" href="http://data-vocabulary.org/Breadcrumb">http://data-vocabulary.org/Breadcrumb</a>&#8220;&gt;&lt;a href=&#8221;/BigOpenData/BigOpenApi/tree/master/docs/source&#8221; class=&#8221;&#8221; data-branch=&#8221;master&#8221; data-direction=&#8221;back&#8221; data-pjax=&#8221;true&#8221; itemscope=&#8221;url&#8221;&gt;&lt;span itemprop=&#8221;title&#8221;&gt;source&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span class=&#8221;separator&#8221;&gt; / &lt;/span&gt;&lt;strong class=&#8221;final-path&#8221;&gt;objetorespuesta.rst&lt;/strong&gt;</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;commit file-history-tease&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;div class=&#8221;file-history-tease-header&#8221;&gt;</dt>
+<dd><p class="first">&lt;img alt=&#8221;BigOpenData&#8221; class=&#8221;avatar&#8221; data-user=&#8221;8199827&#8221; height=&#8221;24&#8221; src=&#8221;<a class="reference external" href="https://avatars1.githubusercontent.com/u/8199827?v=2&amp;amp;s=48">https://avatars1.githubusercontent.com/u/8199827?v=2&amp;amp;s=48</a>&#8221; width=&#8221;24&#8221; /&gt;
+&lt;span class=&#8221;author&#8221;&gt;&lt;a href=&#8221;/BigOpenData&#8221; rel=&#8221;author&#8221;&gt;BigOpenData&lt;/a&gt;&lt;/span&gt;
+&lt;time datetime=&#8221;2014-07-18T12:04:36+02:00&#8221; is=&#8221;relative-time&#8221;&gt;July 18, 2014&lt;/time&gt;
+&lt;div class=&#8221;commit-title&#8221;&gt;</p>
+<blockquote class="last">
+<div>&lt;a href=&#8221;/BigOpenData/BigOpenApi/commit/e9f2ad8e3815c628c9bbd5dcd5c9ecd4836b99fc&#8221; class=&#8221;message&#8221; data-pjax=&#8221;true&#8221; title=&#8221;Primera versión de la documentación</div></blockquote>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>Primera versión de la documentación&#8221;&gt;Primera versión de la documentación&lt;/a&gt;</dt>
+<dd><blockquote class="first">
+<div><blockquote>
+<div>&lt;/div&gt;</div></blockquote>
+<p>&lt;/div&gt;</p>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;participation&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;p class=&#8221;quickstat&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a href=&#8221;#blob_contributors_box&#8221; rel=&#8221;facebox&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;strong&gt;1&lt;/strong&gt;</dt>
+<dd>contributor</dd>
+</dl>
+</dd>
+</dl>
+<p class="last">&lt;/a&gt;</p>
+</dd>
+</dl>
+<p class="last">&lt;/p&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;
+&lt;div id=&#8221;blob_contributors_box&#8221; style=&#8221;display:none&#8221;&gt;</p>
+<blockquote>
+<div><p>&lt;h2 class=&#8221;facebox-header&#8221;&gt;Users who have contributed to this file&lt;/h2&gt;
+&lt;ul class=&#8221;facebox-user-list&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;li class=&#8221;facebox-user-list-item&#8221;&gt;</dt>
+<dd>&lt;img alt=&#8221;BigOpenData&#8221; data-user=&#8221;8199827&#8221; height=&#8221;24&#8221; src=&#8221;<a class="reference external" href="https://avatars1.githubusercontent.com/u/8199827?v=2&amp;amp;s=48">https://avatars1.githubusercontent.com/u/8199827?v=2&amp;amp;s=48</a>&#8221; width=&#8221;24&#8221; /&gt;
+&lt;a href=&#8221;/BigOpenData&#8221;&gt;BigOpenData&lt;/a&gt;</dd>
+</dl>
+<p>&lt;/li&gt;</p>
+</div></blockquote>
+<p>&lt;/ul&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+<dt>&lt;div class=&#8221;file-box&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;div class=&#8221;file&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;meta clearfix&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;info file-name&#8221;&gt;</dt>
+<dd><blockquote class="first">
+<div>&lt;span&gt;29 lines (22 sloc)&lt;/span&gt;
+&lt;span class=&#8221;meta-divider&#8221;&gt;&lt;/span&gt;</div></blockquote>
+<p class="last">&lt;span&gt;1.028 kb&lt;/span&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;
+&lt;div class=&#8221;actions&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;div class=&#8221;button-group&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;a href=&#8221;/BigOpenData/BigOpenApi/raw/master/docs/source/objetorespuesta.rst&#8221; class=&#8221;minibutton &#8221; id=&#8221;raw-url&#8221;&gt;Raw&lt;/a&gt;</dt>
+<dd>&lt;a href=&#8221;/BigOpenData/BigOpenApi/blame/master/docs/source/objetorespuesta.rst&#8221; class=&#8221;minibutton js-update-url-with-hash&#8221;&gt;Blame&lt;/a&gt;</dd>
+</dl>
+<p class="last">&lt;a href=&#8221;/BigOpenData/BigOpenApi/commits/master/docs/source/objetorespuesta.rst&#8221; class=&#8221;minibutton &#8221; rel=&#8221;nofollow&#8221;&gt;History&lt;/a&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;&lt;!&#8211; /.button-group &#8211;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;a class=&#8221;octicon-button tooltipped tooltipped-nw&#8221;</dt>
+<dd><dl class="first last docutils">
+<dt>href=&#8221;github-windows://openRepo/https://github.com/BigOpenData/BigOpenApi?branch=master&amp;amp;filepath=docs%2Fsource%2Fobjetorespuesta.rst&#8221; aria-label=&#8221;Open this file in GitHub for Windows&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-device-desktop&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;/a&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;a class=&#8221;octicon-button js-update-url-with-hash&#8221;</dt>
+<dd>href=&#8221;/BigOpenData/BigOpenApi/edit/master/docs/source/objetorespuesta.rst&#8221;
+data-method=&#8221;post&#8221; rel=&#8221;nofollow&#8221; data-hotkey=&#8221;e&#8221;&gt;&lt;span class=&#8221;octicon octicon-pencil&#8221;&gt;&lt;/span&gt;&lt;/a&gt;</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;a class=&#8221;octicon-button danger&#8221;</dt>
+<dd>href=&#8221;/BigOpenData/BigOpenApi/delete/master/docs/source/objetorespuesta.rst&#8221;
+data-method=&#8221;post&#8221; data-test-id=&#8221;delete-blob-file&#8221; rel=&#8221;nofollow&#8221;&gt;</dd>
+</dl>
+</div></blockquote>
+<p>&lt;span class=&#8221;octicon octicon-trashcan&#8221;&gt;&lt;/span&gt;</p>
+</div></blockquote>
+<p>&lt;/a&gt;</p>
+</div></blockquote>
+<p class="last">&lt;/div&gt;&lt;!&#8211; /.actions &#8211;&gt;</p>
+</dd>
+<dt>&lt;/div&gt;</dt>
+<dd>&lt;div id=&#8221;readme&#8221; class=&#8221;blob instapaper_body&#8221;&gt;</dd>
+</dl>
+<p class="last">&lt;article class=&#8221;markdown-body entry-content&#8221; itemprop=&#8221;mainContentOfPage&#8221;&gt;&lt;h1&gt;</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<p>&lt;a name=&#8221;user-content-objeto-de-respuesta&#8221; class=&#8221;anchor&#8221; href=&#8221;#objeto-de-respuesta&#8221; aria-hidden=&#8221;true&#8221;&gt;&lt;span class=&#8221;octicon octicon-link&#8221;&gt;&lt;/span&gt;&lt;/a&gt;Objeto de Respuesta&lt;/h1&gt;
+&lt;p&gt;El resultado de la petición será en un objeto en formato JSON (&lt;a href=&#8221;<a class="reference external" href="http://www.json.org">http://www.json.org</a>&#8220;&gt;http://www.json.org&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Este objeto de respuesta seguirá la siguiente estructura:&lt;/p&gt;
+&lt;pre&gt;
+{</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>“Result”:[{</dt>
+<dd><blockquote class="first">
+<div>“col1”:”valor1”</div></blockquote>
+<dl class="last docutils">
+<dt>},{</dt>
+<dd>“col2”:”valor2”</dd>
+</dl>
+</dd>
+</dl>
+<p>],
+“NumResult”:”0”,
+“Error”:{</p>
+<blockquote>
+<div>“Código”:”xx”,
+“Descripcion”:”Descripción del error”</div></blockquote>
+<p>}</p>
+</div></blockquote>
+<p>}
+&lt;/pre&gt;
+&lt;ul&gt;
+&lt;li&gt;El elemento &lt;strong&gt;Result&lt;/strong&gt; contendrá un array de objetos JSON con los resultados de la consulta. En caso de que no se hayan encontrado resultados, o surja algún error, el Array no contendrá ningún elemento.&lt;/li&gt;
+&lt;li&gt;El elemento &lt;strong&gt;NumResult&lt;/strong&gt; tendrá como valor la longitud del array contenido en el elemento &lt;strong&gt;Result&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;El elemento &lt;strong&gt;Error&lt;/strong&gt; contiene un objeto en formato JSON con otros dos elementos, &lt;strong&gt;Código y Descripción&lt;/strong&gt;. Estos valores podrán ser consultados en éste documento en la sección de catálogos. Si la ejecución del servicio fuera satisfactoria, el elemento &lt;strong&gt;Error&lt;/strong&gt; estará vacío.&lt;/li&gt;
+&lt;/ul&gt;&lt;/article&gt;</p>
+<blockquote>
+<div><p>&lt;/div&gt;</p>
+<p>&lt;/div&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+<p>&lt;a href=&#8221;#jump-to-line&#8221; rel=&#8221;facebox[.linejump]&#8221; data-hotkey=&#8221;l&#8221; style=&#8221;display:none&#8221;&gt;Jump to Line&lt;/a&gt;
+&lt;div id=&#8221;jump-to-line&#8221; style=&#8221;display:none&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;form accept-charset=&#8221;UTF-8&#8221; class=&#8221;js-jump-to-line-form&#8221;&gt;</dt>
+<dd>&lt;input class=&#8221;linejump-input js-jump-to-line-field&#8221; type=&#8221;text&#8221; placeholder=&#8221;Jump to line&amp;hellip;&#8221; autofocus&gt;
+&lt;button type=&#8221;submit&#8221; class=&#8221;button&#8221;&gt;Go&lt;/button&gt;</dd>
+</dl>
+<p>&lt;/form&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><blockquote>
+<div><blockquote>
+<div>&lt;/div&gt;</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.repo-container &#8211;&gt;
+&lt;div class=&#8221;modal-backdrop&#8221;&gt;&lt;/div&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.container &#8211;&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.site &#8211;&gt;</p>
+<blockquote>
+<div><p>&lt;/div&gt;&lt;!&#8211; /.wrapper &#8211;&gt;</p>
+<blockquote>
+<div>&lt;div class=&#8221;container&#8221;&gt;</div></blockquote>
+</div></blockquote>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;site-footer&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;ul class=&#8221;site-footer-links right&#8221;&gt;</dt>
+<dd>&lt;li&gt;&lt;a href=&#8221;<a class="reference external" href="https://status.github.com/">https://status.github.com/</a>&#8220;&gt;Status&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;<a class="reference external" href="http://developer.github.com">http://developer.github.com</a>&#8220;&gt;API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;<a class="reference external" href="http://training.github.com">http://training.github.com</a>&#8220;&gt;Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;<a class="reference external" href="http://shop.github.com">http://shop.github.com</a>&#8220;&gt;Shop&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;/blog&#8221;&gt;Blog&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;/about&#8221;&gt;About&lt;/a&gt;&lt;/li&gt;</dd>
+</dl>
+<p>&lt;/ul&gt;</p>
+<dl class="docutils">
+<dt>&lt;a href=&#8221;/&#8221; aria-label=&#8221;Homepage&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;mega-octicon octicon-mark-github&#8221; title=&#8221;GitHub&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/a&gt;</p>
+<dl class="docutils">
+<dt>&lt;ul class=&#8221;site-footer-links&#8221;&gt;</dt>
+<dd><dl class="first last docutils">
+<dt>&lt;li&gt;&amp;copy; 2014 &lt;span title=&#8221;0.03789s from github-fe137-cp1-prd.iad.github.net&#8221;&gt;GitHub&lt;/span&gt;, Inc.&lt;/li&gt;</dt>
+<dd>&lt;li&gt;&lt;a href=&#8221;/site/terms&#8221;&gt;Terms&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;/site/privacy&#8221;&gt;Privacy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;/security&#8221;&gt;Security&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#8221;/contact&#8221;&gt;Contact&lt;/a&gt;&lt;/li&gt;</dd>
+</dl>
+</dd>
+</dl>
+<p class="last">&lt;/ul&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;&lt;!&#8211; /.site-footer &#8211;&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;&lt;!&#8211; /.container &#8211;&gt;</p>
+<blockquote>
+<div><blockquote>
+<div>&lt;div class=&#8221;fullscreen-overlay js-fullscreen-overlay&#8221; id=&#8221;fullscreen_overlay&#8221;&gt;</div></blockquote>
+<dl class="docutils">
+<dt>&lt;div class=&#8221;fullscreen-container js-suggester-container&#8221;&gt;</dt>
+<dd><dl class="first docutils">
+<dt>&lt;div class=&#8221;textarea-wrap&#8221;&gt;</dt>
+<dd>&lt;textarea name=&#8221;fullscreen-contents&#8221; id=&#8221;fullscreen-contents&#8221; class=&#8221;fullscreen-contents js-fullscreen-contents js-suggester-field&#8221; placeholder=&#8221;&#8220;&gt;&lt;/textarea&gt;</dd>
+</dl>
+<p class="last">&lt;/div&gt;</p>
+</dd>
+</dl>
+<p>&lt;/div&gt;
+&lt;div class=&#8221;fullscreen-sidebar&#8221;&gt;</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>&lt;a href=&#8221;#&#8221; class=&#8221;exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w&#8221; aria-label=&#8221;Exit Zen Mode&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;mega-octicon octicon-screen-normal&#8221;&gt;&lt;/span&gt;</dd>
+</dl>
+<p>&lt;/a&gt;
+&lt;a href=&#8221;#&#8221; class=&#8221;theme-switcher js-theme-switcher tooltipped tooltipped-w&#8221;</p>
+<blockquote>
+<div>aria-label=&#8221;Switch themes&#8221;&gt;
+&lt;span class=&#8221;octicon octicon-color-mode&#8221;&gt;&lt;/span&gt;</div></blockquote>
+<p>&lt;/a&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+</div></blockquote>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><blockquote>
+<div><dl class="docutils">
+<dt>&lt;div id=&#8221;ajax-error-message&#8221; class=&#8221;flash flash-error&#8221;&gt;</dt>
+<dd>&lt;span class=&#8221;octicon octicon-alert&#8221;&gt;&lt;/span&gt;
+&lt;a href=&#8221;#&#8221; class=&#8221;octicon octicon-x flash-close js-ajax-error-dismiss&#8221; aria-label=&#8221;Dismiss error&#8221;&gt;&lt;/a&gt;
+Something went wrong with that request. Please try again.</dd>
+</dl>
+<p>&lt;/div&gt;</p>
+<blockquote>
+<div><p>&lt;script crossorigin=&#8221;anonymous&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/assets/frameworks-0c1b00f7935ae85624f5fc5d40d52d60febf92b4.js">https://assets-cdn.github.com/assets/frameworks-0c1b00f7935ae85624f5fc5d40d52d60febf92b4.js</a>&#8221; type=&#8221;text/javascript&#8221;&gt;&lt;/script&gt;
+&lt;script async=&#8221;async&#8221; crossorigin=&#8221;anonymous&#8221; src=&#8221;<a class="reference external" href="https://assets-cdn.github.com/assets/github-5ecb6588735013bbe8940399e4154ceea28b35f9.js">https://assets-cdn.github.com/assets/github-5ecb6588735013bbe8940399e4154ceea28b35f9.js</a>&#8221; type=&#8221;text/javascript&#8221;&gt;&lt;/script&gt;</p>
+<blockquote>
+<div>&lt;script async src=&#8221;<a class="reference external" href="https://www.google-analytics.com/analytics.js">https://www.google-analytics.com/analytics.js</a>&#8220;&gt;&lt;/script&gt;</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>&lt;/body&gt;</p>
+</div></blockquote>
+<p>&lt;/html&gt;</p>
 
 
           </div>
           <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-      
-        <a href="descripcionservicios.html" class="btn btn-neutral float-right" title="Descripción de los servicios">Next <span class="fa fa-arrow-circle-right"></span></a>
-      
-      
-        <a href="bigopenapi.html" class="btn btn-neutral" title="BigOpenApi (BOA)"><span class="fa fa-arrow-circle-left"></span> Previous</a>
-      
-    </div>
   
 
   <hr/>
