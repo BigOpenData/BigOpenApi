@@ -19,7 +19,7 @@ A continuación se describen los servicios implementados
 |                        |                                                                                                                                |
 |                        | * **tab_name** :  Nombre del recurso                                                                                           |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
-| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/mostrarRecursos`_                                                                           |
+| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/mostrarRecursos`                                                                            |
 +------------------------+--------------------------------------------------------------------------------------------------------------------------------+
 .. _http://<servidor>:9090/BigOpenApi/mostrarRecursos: http://<servidor>:9090/BigOpenApi/mostrarRecursos                                                                                                                  
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -40,7 +40,7 @@ A continuación se describen los servicios implementados
 |                        |                                                                                                                                               |
 |                        | * **tab_name** :  Nombre del recurso                                                                                                          |
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
-| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>`_                                                                 |
+| Ejemplo de llamada     | `http://<servidor>:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>`                                                                  |
 +------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------+
 
 .. _http://<servidor>:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>: http://<servidor>:9090/BigOpenApi/describirRecurso?dsTabla=<nombreRecurso>
