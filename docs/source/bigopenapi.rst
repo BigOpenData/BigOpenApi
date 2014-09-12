@@ -11,6 +11,6 @@ Los servicios que se ofrecen son los siguientes:
 * describirRecurso
 * probarRecurso
 * contarResultados
-* filtrarResultado
+* filtrarResultados
 * buscarEnUnRadio
 * buscarEnUnPoligono
