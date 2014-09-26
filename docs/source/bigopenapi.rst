@@ -14,3 +14,4 @@ Los servicios que se ofrecen son los siguientes:
 * filtrarResultados
 * buscarEnUnRadio
 * buscarEnUnPoligono
+* buscarEnUnRectangulo
